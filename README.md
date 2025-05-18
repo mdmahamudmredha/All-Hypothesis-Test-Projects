@@ -31,15 +31,32 @@ Real-world datasets often demand diverse statistical approaches based on the dat
 
 ---
 
-## 📊 Dataset Description
 
-The dataset includes survey-style and numeric performance data with the following features:
+## 🧾 Dataset Descriptions
 
-* `Exam_Score`: Continuous variable (normally distributed) used for mean comparison tests.
-* `Sales_Before`, `Sales_After`: Used for paired tests.
-* `Region`, `Branch`: Categorical values for group comparisons.
-* `Packaging_Uniqueness`, `Purchase_Likelihood`: Categorical variables used for Chi-Square testing.
-* `Product_Quality_Rank`, `Satisfaction_Score`: Ordinal values used for non-parametric rank tests.
+📁 Course_Sales_Data.csv
+
+Gender: Male/Female
+
+Group: Group_A / Group_B (used in A/B testing)
+
+Pre_Score, Post_Score: Scores before and after a course
+
+Study_Hours: How long a learner studied
+
+Exam_Score: Final evaluation score
+
+Income: Monthly income
+
+Satisfaction_Level: 1 to 5 (Likert scale)
+
+Purchased: Whether the course was bought or not (Yes/No)
+
+📁 Packaging Uniqueness Survey
+
+Uniqueness: Category of packaging appeal (Extremely Unique, etc.)
+
+Purchase Likelihood: Customer's buying intent (Likely, Unlikely, etc.)
 
 ---
 
