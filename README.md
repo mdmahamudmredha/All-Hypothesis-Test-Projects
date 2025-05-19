@@ -74,34 +74,34 @@ This project includes implementation, assumptions, interpretation, and visualiza
 
 ### 🔹 Parametric Tests (Assume normal distribution)
 
-| Test Name           | Purpose                                                                 |
-|---------------------|-------------------------------------------------------------------------|
-| **Z-Test**          | Compare sample mean to population mean (known σ)                        |
-| **One-sample T-Test** | Compare sample mean to population mean (unknown σ)                     |
-| **Independent T-Test** | Compare means between two independent groups                          |
-| **Paired T-Test**   | Compare means of the same group before/after a change                   |
-| **One-way ANOVA**   | Compare means across 3 or more independent groups                       |
-| **Pearson Correlation** | Measure linear relationship between two continuous variables         |
-| **F-Test**          | Compare variances between two groups                                    |
-| **Bartlett’s Test** | Test if variances are equal across multiple groups                      |
-| **Levene’s Test**   | Similar to Bartlett’s but more robust to non-normality                  |
-| **Linear Regression** | Test relationship and prediction between variables                     |
+| Test Name                    | Purpose                                                                |
+|------------------------------|------------------------------------------------------------------------|
+| **Z-Test**                   | Compare sample mean to population mean (known σ)                       |
+| **One-sample T-Test**        | Compare sample mean to population mean (unknown σ)                     |
+| **Independent T-Test**       | Compare means between two independent groups                           |
+| **Paired T-Test**            | Compare means of the same group before/after a change                  |
+| **One-way ANOVA**            | Compare means across 3 or more independent groups                      |
+| **Pearson Correlation**      | Measure linear relationship between two continuous variables           |
+| **F-Test**                   | Compare variances between two groups                                   |
+| **Bartlett’s Test**          | Test if variances are equal across multiple groups                     |
+| **Levene’s Test**            | Similar to Bartlett’s but more robust to non-normality                 |
+| **Linear Regression**        | Test relationship and prediction between variables                     |
 
 ---
 
 ### 🔸 Non-Parametric Tests (No normality assumption)
 
-| Test Name               | Purpose                                                              |
-|--------------------------|-----------------------------------------------------------------------|
-| **Mann-Whitney U Test**  | Non-parametric alternative to Independent T-Test                     |
-| **Wilcoxon Signed-Rank Test** | Non-parametric alternative to Paired T-Test                      |
-| **Kruskal-Wallis Test**  | Non-parametric alternative to One-way ANOVA                          |
-| **Spearman Correlation** | Non-parametric correlation (rank-based)                              |
-| **Chi-Square Test of Independence** | Test association between two categorical variables         |
-| **Chi-Square Goodness of Fit** | Test how well observed frequencies match expected frequencies |
-| **Friedman Test**        | Non-parametric alternative to Repeated Measures ANOVA                |
+| Test Name                                 |   Purpose                                                       |
+|-------------------------------------------|-----------------------------------------------------------------|
+| **Mann-Whitney U Test**                   | Non-parametric alternative to Independent T-Test                |
+| **Wilcoxon Signed-Rank Test**             | Non-parametric alternative to Paired T-Test                     |
+| **Kruskal-Wallis Test**                   | Non-parametric alternative to One-way ANOVA                     |
+| **Spearman Correlation**                  | Non-parametric correlation (rank-based)                         |
+| **Chi-Square Test of Independence**       | Test association between two categorical variables              |
+| **Chi-Square Goodness of Fit**            | Test how well observed frequencies match expected frequencies   |
+| **Friedman Test**                         | Non-parametric alternative to Repeated Measures ANOVA           |
 
----
+````
 
 ## 🛠️ How to Use
 
@@ -109,8 +109,7 @@ This project includes implementation, assumptions, interpretation, and visualiza
 ```bash
 git clone https://github.com/your-username/hypothesis-testing-project.git
 cd hypothesis-testing-project
-````
-
+```
 ### 2. Open Notebook
 
 Open the file in Jupyter Notebook or any Jupyter-compatible environment:
