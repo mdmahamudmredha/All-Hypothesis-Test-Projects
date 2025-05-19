@@ -60,15 +60,7 @@ Purchase Likelihood: Customer's buying intent (Likely, Unlikely, etc.)
 
 ---
 
-
-```markdown
-# 🧪 All-in-One Hypothesis Testing Project
-
-This repository contains a comprehensive, end-to-end collection of **parametric** and **non-parametric** hypothesis tests implemented in Python, along with synthetic sales-related data. It serves as a complete resource for students, data analysts, and researchers looking to understand and perform various hypothesis tests using real-world style datasets.
-
----
-
-## ✅ What’s Included
+### ✅ What’s Included
 
 This project includes implementation, assumptions, interpretation, and visualization for the following statistical hypothesis tests:
 
@@ -101,7 +93,7 @@ This project includes implementation, assumptions, interpretation, and visualiza
 | **Chi-Square Goodness of Fit**            | Test how well observed frequencies match expected frequencies   |
 | **Friedman Test**                         | Non-parametric alternative to Repeated Measures ANOVA           |
 
-````
+
 
 ## 🛠️ How to Use
 
